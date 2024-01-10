@@ -1,0 +1,53 @@
+.forms {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+.submitbtn {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 6px;
+}
+
+.btn-clear {
+    margin-top: 10px;
+    border-radius: 6px;
+    color: white;
+    background-color: red;
+    padding: 5px 0 5px 0;
+}
+
+.btn-create {
+    border-radius: 6px;
+    color: white;
+    background-color: blue;
+    padding: 5px 0 5px 0;
+}
+
+.btn-clear:hover {
+    background-color: white;
+    color: blue;
+}
+
+.btn-create:hover {
+    background-color: white;
+    color: blue;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 6px;
+    border-radius: 6px;
+}
+
+.title {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 6px;
+    border: 2px solid white;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}

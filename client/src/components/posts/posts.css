@@ -1,0 +1,57 @@
+.show_posts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.upde_form {
+    margin-top: 7rem;
+}
+
+.noPost {
+    color: red;
+    text-align: center;
+}
+
+.post_fram {
+    border: 2px solid blue;
+    padding: 8px;
+    border-radius: 6px;
+    margin-right: 3rem;
+    margin-top: 4rem;
+    width: 200px;
+    height: 400px;
+    background-color: aliceblue;
+
+}
+
+.btn-delete {
+    float: right;
+    color: white;
+    background-color: red;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btn-delete:hover {
+    color: red;
+    background-color: white;
+}
+
+.btn-like {
+    color: white;
+    background-color: blue;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.fa-thumbs-up {
+    margin-right: 3px;
+    margin-left: 4px;
+}
+
+.btn-like:hover {
+    color: blue;
+    background-color: white;
+}

@@ -1,0 +1,7 @@
+{
+    "files.exclude": {
+        "**/.git": false,
+        "**/.git/{branches,info,hooks,logs,objects,*refs,COMM*,desc*,*HEAD,index,}": true,
+      },
+      
+}
