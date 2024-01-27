@@ -2,3 +2,8 @@
     width: 200px;
     height: 150px;
 }
+.post_container{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}

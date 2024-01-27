@@ -8,7 +8,7 @@ const initialState = {
     isSuccess: false,
     message: ''
 }
-/* create a memory*/
+/* create a post*/
 export const createPost = createAsyncThunk('/post/create', async (postData) => {
 
     try {
@@ -17,7 +17,7 @@ export const createPost = createAsyncThunk('/post/create', async (postData) => {
         console.log(error)
     }
 })
-/* get a memory*/
+/* get a post*/
 export const getPost = createAsyncThunk('/post/get', async () => {
 
     try {

@@ -32,6 +32,7 @@
     background-color: red;
     border-radius: 5px;
     padding: 5px;
+    cursor: pointer;
 }
 
 .btn-delete:hover {
@@ -39,6 +40,11 @@
     background-color: white;
 }
 
+.btn-Edit{
+    padding: 5px 10px;
+    margin-left: 10px;
+    cursor: pointer;
+}
 .btn-like {
     color: white;
     background-color: blue;
